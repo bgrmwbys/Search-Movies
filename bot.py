@@ -18,7 +18,7 @@ app = Client(
 )
 
 async def start_bot():
-    print("🤖 הבוט מתחיל לעבוד... (מצב שקט)")
+    print("🤖 הבוט מתחיל לעבוד...")
     await app.start()
     
     # בדיקת חזרה מריסטארט
