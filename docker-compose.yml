@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  tjmoviebot:
+    build: .
+    container_name: tj_movie_bot
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - .:/app

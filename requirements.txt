@@ -1,0 +1,7 @@
+pyrogram
+tgcrypto
+motor
+python-dotenv
+dnspython
+requests
+gTTS
